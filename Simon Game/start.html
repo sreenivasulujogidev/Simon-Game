@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .big-box {
+        height: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .small-box {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 72px;
+        border: 2px solid black;
+        padding: 24px;
+      }
+      p {
+        font-size: 20px;
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .button a {
+        margin-top: 12px;
+        padding: 8px 18px;
+        background-color: #00ff00;
+        text-decoration: none;
+        border: 2px solid black;
+        color: black;
+      }
+      .button a:hover {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big-box">
+      <div class="small-box">
+        <h1 style="font-size: 42px; margin-left: 24px">
+          How to play Simon Game
+        </h1>
+        <p>
+          1️⃣ To Start the game Press any key on the Keyboard (Say ENTER) <br />
+          <span style="display: inline-block; margin-left: 24px"
+            >Then Simon flashes one color (e.g., Green)</span
+          >
+        </p>
+        <p>
+          2️⃣ Repeat the sequence i.e you have to press the same Color (Green)
+        </p>
+        <p>
+          3️⃣ Next round Simon adds one more color <br />
+          <span style="display: inline-block; margin-left: 24px">
+            Example: Red => You must press: Green → Red (in order)
+          </span>
+        </p>
+        <p>
+          4️⃣ Keep going Every round: <br />
+          <span style="display: inline-block; margin-left: 24px">
+            Simon repeats the old sequence Then adds one new color <br />Example
+            later rounds: Green → Red → Blue → Yellow …
+          </span>
+        </p>
+        <p>
+          5️⃣ Game over If you press the wrong color or wrong order ❌<br />
+          <span style="display: inline-block; margin-left: 24px">
+            Game ends and restarts from level 1
+          </span>
+        </p>
+        <div class="button">
+          <a href="index.html">Ready</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
